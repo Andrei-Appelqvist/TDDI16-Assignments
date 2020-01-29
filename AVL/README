@@ -1,11 +1,11 @@
 AVL tree implementation.
 Run the program with > ./a.out and follow the instructions.
-1 To add values \n
-2 Remove values \n
-3 Search value \n
-4 Search smallest \n
-5 Search largest \n
-6 Empty the tree \n
-7 Print in order \n
-8 Print tree \n
+1 To add values 
+2 Remove values 
+3 Search value 
+4 Search smallest 
+5 Search largest 
+6 Empty the tree 
+7 Print in order 
+8 Print tree 
 0 Quit
