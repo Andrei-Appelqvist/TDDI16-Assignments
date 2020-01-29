@@ -1,3 +1,13 @@
+This is a pattern recognition problem. Finds all lines that have 4 or more points on them.
+Run brute test with > ./brute < data/[textfiles with points, choose as big of input you want that is in data folder] \n
+Example: > ./brute < data/input1600.txt
+I do not recommend larger than 3200 with brute it will take a long time.
+The optimized solution is : >./fast < data/input1600.txt \n
+Go as high as you want with this one. Run times are listed below.\n
+./fast < data/mystery10089.txt
+
+
+
 /**********************************************************************
  *  M�nsterigenk�nning readme.txt
  **********************************************************************/
