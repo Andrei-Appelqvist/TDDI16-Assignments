@@ -1,12 +1,12 @@
-This program finds the shortest wordchain in a list of words from x to y and also the longest of the shortest lists that stops with x.\n
-A word chain is constructed like this: aula -> gula -> gala -> gama -> jama.\n
-Four letter words where the next word is only one letter different from the previous. \n
+This program finds the shortest wordchain in a list of words from x to y and also the longest of the shortest lists that stops with x.
+A word chain is constructed like this: aula -> gula -> gala -> gama -> jama.
+Four letter words where the next word is only one letter different from the previous. 
 Tests are written by writing for example two space separated words that are in the wordlist on a row in the test files for the shortest path or a single word on its own line in the test files for the longest longest shortest wordchain that stops with that word:\n
-For example:\n
-code data \n
-wolf\n
+For example:
+code data 
+wolf
 
-> cat words/english.txt tests/english2.txt | ./a.out \n
-will give you the longest shortest chain for all words in english2.txt \n
-> cat words/english.txt tests/english1.txt | ./a.out \n
+> cat words/english.txt tests/english2.txt | ./a.out 
+will give you the longest shortest chain for all words in english2.txt 
+> cat words/english.txt tests/english1.txt | ./a.out 
 will give you the shortest chain from first word to second in english1.txt
