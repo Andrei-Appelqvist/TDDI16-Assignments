@@ -1,12 +1,12 @@
 Assignment was to crack hashed passwords of length 8 and 10(not through bruteforce).
 The passwords are encrypted with the txt files for each length. They are also decrypted using the same txt file.
-To run program run > make \n
-Run ./encrypt [pass] < [correct length text file] \n
-For example >./encrypt passw < easy5.txt \n
-Decryption works almost the same.\n
->./decrypt [encrypted password] < easy5.txt \n
+To run program run > make 
+Run ./encrypt [pass] < [correct length text file] 
+For example >./encrypt passw < easy5.txt 
+Decryption works almost the same.
+>./decrypt [encrypted password] < easy5.txt 
 If you get wrong length go into key.h and change C. Right now it should be length 8.
-Try:\n
+Try:
 ./decrypt xwtyjjin < rand8.txt
 
 
